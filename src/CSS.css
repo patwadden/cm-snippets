@@ -151,6 +151,11 @@ h2 {
     text-align: center;
 }
 
+.wine .cta-button:hover,
+.wine .cta-button:hover {
+	text-decoration: underline;
+}
+
 .wine a.cta-button.arrow  {
 	padding-right: 40px;    
     background: url(https://www.cellarmasters.com.au/public/css/images/base64/FEC26AD6DA79F3515DC86583CD5B138F.svg) 89% center no-repeat #2e2e2e;
