@@ -1,27 +1,27 @@
-#Code Snippets for C.M.
+##Code Snippets for C.M.
 
-## HTML Components
+### HTML Components
 
-The entire page muct be wrapped in `<div class="custom-page"></div>`
+The entire page must be wrapped in `<div class="custom-page"></div>`
 
-### Responsive Image
+#### Responsive Image
 ```
 <img class="img-responsive" src="https://images.unsplash.com/photo-1468956398224-6d6f66e22c35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d2e4d45d037053be722233b79bd0510&auto=format&fit=crop&w=3910&q=80" alt="" title="Image Title" />
 ```
 
-### Intro
+#### Intro
 ```
 <div class="intro indent">
 	<p>This is the intro paragraph. It has padding on the top and bottom.</p>
 </div>
 ```
 
-### Heading
+#### Heading
 ```
 <h2 class="indent">This is a simple heading.</h2>
 ```
 
-### Wine Lock Up - With Image
+#### Wine Lock Up - With Image
 ```
 <div class="wine layoutfix">
 	<div class="bottle">
@@ -56,7 +56,7 @@ The entire page muct be wrapped in `<div class="custom-page"></div>`
 </div>
 ```
 
-### Wine Lockup - No Image
+#### Wine Lockup - No Image
 ```
 <div class="wine no-image layoutfix">
 	<div class="info">
@@ -88,56 +88,55 @@ The entire page muct be wrapped in `<div class="custom-page"></div>`
 </div>
 ```
 
-### Content Block - No Image
+#### Content Block - No Image
 ```
-	<div class="large-margin-bottom no-image">
-		<div class="indent">
-			<h2>Title and Paragraph - No Image</h2>
-			<p>Lorem</p>
-		</div>
+<div class="large-margin-bottom no-image">
+	<div class="indent">
+		<h2>Title and Paragraph - No Image</h2>
+		<p>Lorem</p>
 	</div>
+</div>
 ```
 
-### Content Block - Left Aligned Image
+#### Content Block - Left Aligned Image
 ```
-	<div class="left-image layoutfix">
-		<img class="img-responsive" src="https://www.cellarmasters.com.au/Assets/Images/icon-reservations/LanghorneCreek-Bleasdale.jpg" alt="" />
-		<div class="indent">
-			<h2>Title and Paragraph - Image Left Aligned</h2>
-			<p>Lorem</p>
-		</div>
+<div class="left-image layoutfix">
+	<img class="img-responsive" src="https://www.cellarmasters.com.au/Assets/Images/icon-reservations/LanghorneCreek-Bleasdale.jpg" alt="" />
+	<div class="indent">
+		<h2>Title and Paragraph - Image Left Aligned</h2>
+		<p>Lorem</p>
 	</div>
+</div>
 ```
 
-### Content Block - Right Aligned Image
+#### Content Block - Right Aligned Image
 ```
-	<div class="right-image layoutfix">
-		<img class="img-responsive" src="https://www.cellarmasters.com.au/Assets/Images/icon-reservations/LanghorneCreek-Bleasdale.jpg" alt="" />
-		<div class="indent">
-			<h2>Title and Paragraph - Image Right Aligned</h2>
-			<p>Lorem</p>
-		</div>
+<div class="right-image layoutfix">
+	<img class="img-responsive" src="https://www.cellarmasters.com.au/Assets/Images/icon-reservations/LanghorneCreek-Bleasdale.jpg" alt="" />
+	<div class="indent">
+		<h2>Title and Paragraph - Image Right Aligned</h2>
+		<p>Lorem</p>
 	</div>
+</div>
 ```
 
-### YouTube Embed
+#### YouTube Embed
 ```
-	<div class="youtube medium-margin-bottom">
-		<h2 class="indent">Responsive YouTube Video</h2>
-		<div class="embed-responsive">
-			<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</div>
+<div class="youtube medium-margin-bottom">
+	<h2 class="indent">Responsive YouTube Video</h2>
+	<div class="embed-responsive">
+		<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
+</div>
 ```
 
-
-## Available CSS Classes
+### Available CSS Classes
 There are certain classes avaliable to use.
-`indent`  Adds 10px padding to the left and right of content.
-`large-margin-top` Adds 60px margin to the top
-`medium-margin-top` Adds 40px margin to the top
-`small-margin-top` Adds 20px margin to the top
-`large-margin-bottom` Adds 60px margin to the bottom
-`medium-margin-bottom` Adds 40px margin to the bottom
-`small-margin-bottom` Adds 20px margin to the bottom
-`layoutfix` Use if content is overlapping from below
+ * `indent`  Adds 10px padding to the left and right of content.
+ * `large-margin-top` Adds 60px margin to the top
+ * `medium-margin-top` Adds 40px margin to the top
+ * `small-margin-top` Adds 20px margin to the top
+ * `large-margin-bottom` Adds 60px margin to the bottom
+ * `medium-margin-bottom` Adds 40px margin to the bottom
+ * `small-margin-bottom` Adds 20px margin to the bottom
+ * `layoutfix` Use if content is overlapping from below
