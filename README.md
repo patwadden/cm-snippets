@@ -26,6 +26,8 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 #### Wine Lock Up - With Image Left
 **Note:** The register button must have `id="reservation-pinnacle"` for the overlay to work.
 
+Adding the `arrow` class to the button adds an arrow to the right of the text
+
 ```
 <div class="wine layoutfix">
 	<div class="bottle">
@@ -43,7 +45,7 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="cta-button">Register your interest</a>
+				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="cta-button arrow">Register your interest</a>
 				<div id="fallback" style="display: none;">
 					<span style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
 				</div>
@@ -53,7 +55,7 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a href="https://www.cellarmasters.com.au/red/cabernet-blends/wine/langhorne-creek-area-red-blend-r2205t" class="cta-button" target="_blank">Buy Now</a>
+				<a href="https://www.cellarmasters.com.au/red/cabernet-blends/wine/langhorne-creek-area-red-blend-r2205t" class="cta-button arrow" target="_blank">Buy Now</a>
 			</div>
 		</div>
 	</div>
@@ -62,6 +64,8 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 
 #### Wine Lockup - No Image
 **Note:** The register button must have `id="reservation-pinnacle"` for the overlay to work.
+
+Adding the `arrow` class to the button adds an arrow to the right of the text
 
 ```
 <div class="wine no-image layoutfix">
@@ -77,7 +81,7 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="cta-button">Register your interest</a>
+				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="cta-button arrow">Register your interest</a>
 				<div id="fallback" style="display: none;">
 					<span style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
 				</div>
@@ -87,7 +91,7 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a href="https://www.cellarmasters.com.au/red/cabernet-blends/wine/langhorne-creek-area-red-blend-r2205t" class="cta-button" target="_blank">Buy Now</a>
+				<a href="https://www.cellarmasters.com.au/red/cabernet-blends/wine/langhorne-creek-area-red-blend-r2205t" class="cta-button arrow" target="_blank">Buy Now</a>
 			</div>
 		</div>
 	</div>

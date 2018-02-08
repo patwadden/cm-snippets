@@ -149,14 +149,14 @@ h2 {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+}
+
+.wine a.cta-button.arrow  {
+	padding-right: 40px;    
     background: url(https://www.cellarmasters.com.au/public/css/images/base64/FEC26AD6DA79F3515DC86583CD5B138F.svg) 89% center no-repeat #2e2e2e;
 }
 
-.wine a.register-button  {
-	padding-right: 40px;    
-}
-
-.wine a.buy-button {
+.wine a.cta-button.buy {
     background: #8e8e8d;
 }
 
