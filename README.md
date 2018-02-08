@@ -39,9 +39,9 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="register-button">Register your interest</a>
-				<div style="display: none;">
-					<span id="fallback" style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
+				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="register-button">Register your interest</a>
+				<div id="fallback" style="display: none;">
+					<span style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
 				</div>
 			</div>
 			<div class="buy">
@@ -71,9 +71,9 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 				<p class="price">$999.99 <span>(6 pack)</span></p>
 				<p>+ delivery &amp; handling fee* <br/>
 				<span class="semi-bold">Product Code:</span> RXXXX</p>
-				<a name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="register-button">Register your interest</a>
-				<div style="display: none;">
-					<span id="fallback" style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
+				<a id="reservation-pinnacle" name="bar" href="#event-1" onclick="toggle_visibility('fallback');" class="register-button">Register your interest</a>
+				<div id="fallback" style="display: none;">
+					<span style="background-color: yellow;">Form didn't pop up? <a href="https://cellarmasters.au1.qualtrics.com/jfe/form/SV_72tIPvmSJYf9QKF" target="_blank">Click here</a></span>
 				</div>
 			</div>
 			<div class="buy">

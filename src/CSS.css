@@ -19,8 +19,6 @@
     padding-bottom: 56.25%;
 }
 
-
-/*Layout classes*/
 .small-margin-top {
 	margin-top: 20px;
 }
@@ -44,6 +42,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+
+/*Layout classes*/
 
 .intro {
 	padding-top: 20px;
