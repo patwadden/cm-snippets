@@ -131,7 +131,8 @@ h2 {
   font-size: 0.3em;
 }
 
-.wine a {
+.wine .button,
+.wine .button {
 	cursor: pointer;
 	min-width: 150px;
     background-image: -webkit-linear-gradient(top, #2e2e2e, #333);
