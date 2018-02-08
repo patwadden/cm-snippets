@@ -1,6 +1,6 @@
 #  Code Snippets for C.M.
 
-### HTML Components
+## HTML Components
 
 The entire page must be wrapped in `<div class="custom-page"></div>`
 
@@ -130,7 +130,7 @@ The entire page must be wrapped in `<div class="custom-page"></div>`
 </div>
 ```
 
-### Available CSS Classes
+## Available CSS Classes
 There are certain classes avaliable to use.
  * `indent`  Adds 10px padding to the left and right of content.
  * `large-margin-top` Adds 60px margin to the top
