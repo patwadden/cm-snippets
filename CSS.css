@@ -1,0 +1,191 @@
+/*Helper Classes*/
+.layoutfix:before,
+.layoutfix:after {
+    content: " ";
+    display: table;
+}
+
+.layoutfix:after {
+    clear: both;
+}
+
+.embed-responsive {
+	margin-top: 20px;
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+
+/*Layout classes*/
+.small-margin-top {
+	margin-top: 20px;
+}
+.medium-margin-top {
+	margin-top: 40px;
+}
+.large-margin-top {
+	margin-top: 60px;
+}
+.small-margin-bottom {
+	margin-bottom: 20px;
+}
+.medium-margin-bottom {
+	margin-bottom: 40px;
+}
+.large-margin-bottom {
+	margin-bottom: 60px;
+}
+
+.indent {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.intro {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.left-image img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.right-image img {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+/*Typography*/
+
+.semi-bold {
+	font-weight: 500;
+}
+.bold {
+	font-weight: 700;
+}
+.custom-page {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #CCB26A !important;
+	font-size: 1.9em;
+	font-family: Georgia, serif;
+	margin: 0 0 10px 0;
+}
+
+/*Page Specific Classes*/
+.wine .bottle {
+	float: left;
+	width: 25%;
+}
+.wine .info {
+	float: left;
+	width: 75%;
+}
+
+.wine.no-image .info {
+	width: 100%;
+}
+
+.wine .notes {
+	line-height: 1.6;
+}
+.wine .ctas {
+	margin-top: 20px;
+}
+
+.wine .register,
+.wine .buy {
+	float: left;
+	width: 49%;
+	padding: 25px;
+}
+.wine .register {
+	background: #c6d4d7;
+}
+.wine .buy {
+	float: right;
+	background: #d9d9d9;
+}
+
+.wine .price {
+  font-size: 3.1em; 
+  font-weight: 500; 
+  letter-spacing: 2px;
+}
+.wine .price span {
+  font-size: 0.3em;
+}
+
+.wine a {
+	cursor: pointer;
+	min-width: 150px;
+    background-image: -webkit-linear-gradient(top, #2e2e2e, #333);
+    background-image: -moz-linear-gradient(top, #2e2e2e, #333);
+    background-image: -ms-linear-gradient(top, #2e2e2e, #333);
+    background-image: -o-linear-gradient(top, #2e2e2e, #333);
+    background-image: linear-gradient(to bottom, #2e2e2e, #333);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    text-shadow: 1px 1px 3px #666666;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background: url(https://www.cellarmasters.com.au/public/css/images/base64/FEC26AD6DA79F3515DC86583CD5B138F.svg) 89% center no-repeat #2e2e2e;
+}
+
+.wine a.register-button  {
+	padding-right: 40px;    
+}
+
+.wine a.buy-button {
+    background: #8e8e8d;
+}
+
+@media (max-width: 960px) {
+	.left-image img {
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.right-image img {
+		float: right;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.wine .bottle {
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.wine .bottle img {
+		display: inline-block !important;
+	}
+	.wine .info {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.wine .register,
+	.wine .buy {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
